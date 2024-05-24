@@ -9,14 +9,36 @@
 header{
   background-color: #AED8E4;
 }
+.row{ 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.col-70{
+    width: 70%;
+    border: 2px dotted black;
+    background-color: #1E91FE;
+    height: 280px;
+}
+
+.col-30{
+    width: 30%;
+    border: 2px dotted black;
+    background-color: #FEC0CB;
+    height: 280px;
+}
+
+/*HEADER*/
 .container-head{
     width: 75%;
     margin: 0 auto;  
     padding: 12.5px;  
-}
-.row{ 
-    display: flex;
-    flex-wrap: wrap;
 }
 .col25{
     width: 25%;
@@ -35,13 +57,13 @@ header{
 .txt-end{
     text-align: right;
 }
-
 li{
     display: inline-block;
     margin: 2.5px;
     list-style: none;
 }
 
+/*FIRST SECTION SPECIFIC*/
 .bg-blue{
     background-color: #01008A;
 }
@@ -56,3 +78,6 @@ li{
     height: 240px;
     background-color: #EE82EF;
 }
+
+
+
