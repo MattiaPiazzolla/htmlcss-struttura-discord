@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*LAYOUT ELEMENTS*/
+
+header{
+  background-color: #AED8E4;
+}
+.container{
+    padding: 10px;    
+}
+.row{
+    width: 75%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    
+}
+.col25{
+    width: 25%;
+    border: 2px dotted black;
+    background-color: #E1A21F;
+    padding: 7.5px 10px;
+}
+.col50{
+    width: 50%;
+    border: 2px dotted black;
+    padding: 5px;
+    background-color: #E1A21F;
+    text-align: center;
+}
+
+.txt-end{
+    text-align: right;
+}
+
+li{
+    display: inline-block;
+    margin: 2.5px;
+    list-style: none;
+}
