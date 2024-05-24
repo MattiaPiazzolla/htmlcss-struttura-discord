@@ -9,15 +9,14 @@
 header{
   background-color: #AED8E4;
 }
-.container{
-    padding: 10px;    
-}
-.row{
+.container-head{
     width: 75%;
+    margin: 0 auto;  
+    padding: 12.5px;  
+}
+.row{ 
     display: flex;
-    margin: auto;
-    align-items: center;
-    
+    flex-wrap: wrap;
 }
 .col25{
     width: 25%;
@@ -41,4 +40,12 @@ li{
     display: inline-block;
     margin: 2.5px;
     list-style: none;
+}
+
+.bg-blue{
+    background-color: #01008A;
+}
+
+.container-sm{
+    width: 60%;
 }
