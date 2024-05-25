@@ -20,15 +20,15 @@ header{
     padding: 30px;
 }
 
-.col-70{
-    width: 70%;
+.col-60{
+    width: 60%;
     border: 2px dotted black;
     background-color: #1E91FE;
     height: 280px;
 }
 
-.col-30{
-    width: 30%;
+.col-40{
+    width: 40%;
     border: 2px dotted black;
     background-color: #FEC0CB;
     height: 280px;
@@ -73,11 +73,22 @@ footer{
     border: 2px dotted white;
     height: 400px;
 }
-
 .container-footer-sm{
-    margin: 2px auto;
     width: 75%;
-
+    margin: 1px auto 0 auto;
+    padding-top: 15px;
+}
+.col-footer{
+    width: 100%;
+    background-color: #80FFD4;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.txt-footer{
+    border: 2px dotted black;
+    background-color: #FFB5C4;
+    padding: 3px 5px;
 }
 
 
